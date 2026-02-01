@@ -37,3 +37,6 @@ Desktop.ini
 
 # Mac (if applicable)
 .DS_Store
+
+# Binary files
+*.bin
