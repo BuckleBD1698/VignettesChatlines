@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class BBD_VignettesChatlines
+	class VignettesChatlines
 	{
 		units[]={};
 		weapons[]={};
@@ -15,9 +15,9 @@ class CfgPatches
 
 class CfgMods
 {
-	class BBD_VignettesChatlines_Mod
+	class VignettesChatlines_Mod
 	{
-		dir 		= "BBD_VignettesChatlines";
+		dir 		= "VignettesChatlines";
 		name 		= "Vignettes Chatlines";
 		author 		= "BuckleBD";
 		credits 	= "";
@@ -25,7 +25,7 @@ class CfgMods
 		version 	= 1.0;
 		extra 		= 0;
 		type 		= "mod";
-		inputs 		= "BBD_VignettesChatlines\data\inputs.xml";
+		inputs 		= "VignettesChatlines\data\inputs.xml";
 		picture 	= "";
 		logo 		= "";
 		logoSmall 	= "";
@@ -39,17 +39,17 @@ class CfgMods
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"BBD_VignettesChatlines/scripts/3_game"};
+				files[] = {"VignettesChatlines/scripts/3_game"};
 			};
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"BBD_VignettesChatlines/scripts/4_world"};
+				files[] = {"VignettesChatlines/scripts/4_world"};
 			};
 			class missionScriptModule
 			{
 				value = "";
-				files[] = {"BBD_VignettesChatlines/scripts/5_mission"};
+				files[] = {"VignettesChatlines/scripts/5_mission"};
 			};
 		};
 	};
